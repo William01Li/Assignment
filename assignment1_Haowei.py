@@ -26,7 +26,7 @@ def calculator():
         print("Invalid operation")
 # task 2
 def qa_bot():
-    print("\n--- Question Answering Bot ---")
+    print("\n Question Answering Bot")
     question = input("Ask me something: ")
 
     if question == "hello":
@@ -43,13 +43,12 @@ def qa_bot():
         print("Bot: Sorry, I don't understand.")
 # task 3
 def turtle_drawing():
-    print("it is opening, please check the taskbar")
     screen = turtle.Screen()
     screen.bgcolor("black") 
     screen.title("Creative Turtle Drawing")
     
     pen = turtle.Turtle()
-    pen.speed(0)  # 设置最快画图速度 set the fastest drawing speed 
+    pen.speed(0)  # set the fastest drawing speed 
     pen.width(2)
     
     # set a color list
