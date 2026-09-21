@@ -1,6 +1,5 @@
 # Name: Haowei Li
 #Assignment one 
-#ddl is 22/09/2026 23:59pm
 
 import turtle
 
